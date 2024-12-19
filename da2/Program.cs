@@ -13,7 +13,7 @@
             fin2.MoveTo("f5.txt");
              using (StreamWriter streamWriter = fin1.AppendText()) 
              {
-                streamWriter.Write(" appended successfully");
+                streamWriter.Write(" appended successfully yes");
              }
         }
     }
