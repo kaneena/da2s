@@ -4,6 +4,7 @@
     {
         static void Main(string[] args)
         {
+            //reading from git
             File.WriteAllText("f1.txt", "first file");
             FileInfo fin1 = new FileInfo("f1.txt");
             File.WriteAllText("f2.txt", "second file");
